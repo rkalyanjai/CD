@@ -134,3 +134,21 @@ L: {    ,       (       a       }
 
 
 L: {    ,       (       a       }
+
+// Alg
+- Start the program.
+- Get the Set of Productions for the grammar from the user. No redundant & cyclic productions must be given.
+- The conditions to be checked are:
+
+                      Conditions               Inclusions in result
+                        S->Sa 			      add a
+			S->Aa 			      add a, production of A
+			S->ab 			      add a
+			S->AB 			      Production of A
+			S->SA                         none
+			S->a 			      take a
+			S->SA* 			      none taken
+			S->*a 			      take * leave a
+
+- Print the Leading edges.
+- Stop the program.
