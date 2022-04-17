@@ -123,3 +123,33 @@ FIRST(X)={+,e}
 FIRST(T)={(,i}
 FIRST(Y)={*,e}
 FIRST(F)={(,i}
+
+// Alg
+Procedure First
+- Input the number of production N.
+- Input all the production rule PArray
+- Repeat steps a, b, c until process all input production rule i.e. PArray[N]
+  a. If X i ≠ X i+1 then
+  i. Print Result array of X i which contain FIRST(X i )
+  b. If first element of X i of PArray is Terminal or ε Then
+  i. Add Result = Result U first element
+  c. If first element of X i of PArray is Non-Terminal Then
+  i. searchFirst(i, PArray, N)
+
+- End Loop
+- If N (last production) then
+  a. Print Result array of X i which contain FIRST(X i )
+- End
+
+Procedure searchFirst(i, PArray, N)
+- Repeat steps Loop j=i+1 to N
+  a. If first element of X j of PArray is Non-Terminal Then
+  i. searchFirst(j, of PArray, N)
+  b. If first element of X j of PArray is Terminal or ε Then
+  i. Add Result = Result U first element
+  ii. Flag=0
+
+- End Loop
+- If Flag = 0 Then
+  a. Print Result array of X j which contain FIRST(X j )
+- End
