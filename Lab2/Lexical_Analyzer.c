@@ -92,3 +92,16 @@ i is the identifier
 5 is the constant
 ) is the symbol
 break is the keyword
+// Alg
+- Start
+- Get the input expression from the user.
+- Store the keywords and operators.
+- Perform analysis of the tokens based on the ASCII values.
+-
+ASCII Range         TOKEN TYPE
+97-122              Keyword else identifier
+48-57               Constant else operator
+Greater than 12     Symbol
+
+- Print the token types.
+- Stop
