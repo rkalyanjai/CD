@@ -1,2 +1,0 @@
-enter the expression:a*b-c
-ab+c-
