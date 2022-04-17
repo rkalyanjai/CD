@@ -93,3 +93,13 @@ b       d       a
 c       a       d
 
 d       d       b
+// Alg
+Algorithm:
+- Start
+- Enter the number of states.
+- Enter the number of input variables.
+- Enter the state and its information.
+- Enter the input variables.
+- Enter the transition function information i.e. transition value from a state with a input variable.
+- Show the Transition Table.
+- Stop
