@@ -151,3 +151,19 @@ S: { ) a }
 L: {, ) a }
 
 L: {, ) a }
+// Alg
+- Start the program.
+- Get the Set of Productions for the grammar from the user. No redundant & cyclic productions must be given.
+- Reverse each input productions and print it.
+- The conditions to be checked according to the reversed inputs are:
+			Conditions 				Inclusions in result
+			S->Sa	 				add a
+			S->Aa 					add a, production of A
+			S->ab 					add a
+			S->AB 					Production of A
+			S->SA 					none
+			S->a 					take a
+			S->SA* 					none taken
+			S->*a 					take * leave a
+- Print the Trailing edges.
+- Stop the program.	
