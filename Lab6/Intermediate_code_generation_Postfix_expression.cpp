@@ -60,3 +60,7 @@ printf("%c",pop());
 }
 return 0;
 }
+// Input
+enter the expression:a*b-c
+// Output
+ab+c-
