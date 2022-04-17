@@ -82,3 +82,13 @@ void main()
 		}
 	} 
 }
+// Input
+Enter the expression: while(i<5)break
+// Output
+while is the keyword
+( is the symbol
+i is the identifier
+< is the operator
+5 is the constant
+) is the symbol
+break is the keyword
