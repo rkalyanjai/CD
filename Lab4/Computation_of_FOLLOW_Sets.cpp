@@ -73,3 +73,12 @@ Do you want to continue (0/1)?1
 Enter the element whose FOLLOW is to be found ;F
 FOLLOW(F)={$ +}
 Do you want to continue (0/1)?0
+// Alg
+- Declare the variables.
+- Enter the production rules for the grammar.
+- Calculate the FOLLOW set for each element call the user defined function follow().
+- If x-&gt;aBb
+  a. If x is start symbol then FOLLOW(x)={$}.
+  b. If b is NULL then FOLLOW(B)=FOLLOW(x).
+  c. If b is not NULL then FOLLOW(B)=FIRST(b).
+END.
