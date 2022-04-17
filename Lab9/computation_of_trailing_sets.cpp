@@ -131,3 +131,23 @@ int main()
 	}
     return 0;
 }
+// Input
+Enter the production: end with ~
+S->(L)
+S->a
+L->L,S
+L->S
+~
+S->)L(
+S->a
+L->S,L
+L->S
+// Output
+The Trailing edges r as follows:
+S: { ) a }
+
+S: { ) a }
+
+L: {, ) a }
+
+L: {, ) a }
