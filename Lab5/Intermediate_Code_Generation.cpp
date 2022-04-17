@@ -85,3 +85,11 @@ int main()
 	}
 	return 0;
 }
+// Input
+Input an expression : a=b+c-6
+// Output
+Intermediate code generator
+T = 6
+A = c-T
+B = b+A
+a = B
