@@ -58,3 +58,18 @@ else first(a[k][2]);
 }
 }
 }
+// Input and Output
+Enter the no of productions :3
+Enter the production (epsion =$):
+E=E+T
+T=T*F
+F=a
+Enter the element whose FOLLOW is to be found ;E
+FOLLOW(E)={$ +}
+Do you want to continue (0/1)?1
+Enter the element whose FOLLOW is to be found ;T
+FOLLOW(T)={$ +}
+Do you want to continue (0/1)?1
+Enter the element whose FOLLOW is to be found ;F
+FOLLOW(F)={$ +}
+Do you want to continue (0/1)?0
