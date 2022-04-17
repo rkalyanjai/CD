@@ -60,3 +60,8 @@ int main()
  cout<<"Given Infix Expn: "<< infx << " Prefix Expn: "<<prfx;
  return 0;
 }
+// Alg
+// Input
+Read the Infix Expression : a+b
+// Output
+Given Infix Expn: a+b Prefix Expn: +ab
