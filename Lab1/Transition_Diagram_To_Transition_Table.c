@@ -60,3 +60,36 @@ int main()
 	}
 	return 0;
 }
+// Input
+Input the number of finite set of states : 4
+Input the number of finite set of input veriables : 2
+
+Input the states and its info (state start final):
+97 1 1
+98 0 0
+99 0 0
+100 0 0
+
+Input the variables :
+48
+49
+
+The sates a with input variable 0 move to state : 98
+The sates a with input variable 1 move to state : 99
+The sates b with input variable 0 move to state : 100
+The sates b with input variable 1 move to state : 97
+The sates c with input variable 0 move to state : 97
+The sates c with input variable 1 move to state : 100
+The sates d with input variable 0 move to state : 100
+The sates d with input variable 1 move to state : 98
+// Output
+The Transition Table :
+        0       1
+------------------------------------------------
+a  $  * b       c
+
+b       d       a
+
+c       a       d
+
+d       d       b
