@@ -107,3 +107,30 @@ int main()
 	}
 	return 0;
 }
+// Input
+Enter the production: end with ~
+
+S->(L)
+S->a
+L->L,S
+L->S
+~
+
+S->(L)
+S->a
+L->L,S
+L->S
+
+// Output
+The Leading edges r as follows:
+
+S: {    (       a       }
+
+
+S: {    (       a       }
+
+
+L: {    ,       (       a       }
+
+
+L: {    ,       (       a       }
