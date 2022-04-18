@@ -84,6 +84,7 @@ int main()
 	}
 	return 0;
 }
+/*
 // Input
 How many production rule : 8
 
@@ -152,4 +153,4 @@ Procedure searchFirst(i, PArray, N)
 - End Loop
 - If Flag = 0 Then
   a. Print Result array of X j which contain FIRST(X j )
-- End
+- End*/
