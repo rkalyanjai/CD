@@ -83,6 +83,7 @@ int main()
 	}
 	return 0;
 }
+/*
 // Input
 Enter the expression: while(i<5)break
 // Output
@@ -105,4 +106,4 @@ ASCII Range         TOKEN TYPE
 Greater than 12     Symbol
 
 - Print the token types.
-- Stop
+- Stop*/
