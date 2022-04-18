@@ -60,7 +60,7 @@ int main()
 	}
 	return 0;
 }
-// Input
+/* Input
 Input the number of finite set of states : 4
 Input the number of finite set of input veriables : 2
 
@@ -102,4 +102,4 @@ Algorithm:
 - Enter the input variables.
 - Enter the transition function information i.e. transition value from a state with a input variable.
 - Show the Transition Table.
-- Stop
+- Stop*/
