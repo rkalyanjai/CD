@@ -85,6 +85,7 @@ int main()
 	}
 	return 0;
 }
+/*
 // Input
 Input an expression : a=b+c-6
 // Output
@@ -122,4 +123,4 @@ a = B
        2. TOP:=TOP-2. Save newID to STACK[TOP]
        3. FLAG:=0
 [End]
-- End the process
+- End the process*/
