@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<ctype.h>
 #include<string.h>
-void main()
+int main()
 {
 	char key[11][10]={"for","while","do","then","else","break","switch","case","if","continue"};
 	char oper[13]={'+','-','*','/','%','&','<','>','=',';',':','!'};
@@ -80,7 +80,8 @@ void main()
 				printf("\n %c is the symbol",a[i]);
 			i++;
 		}
-	} 
+	}
+	return 0;
 }
 // Input
 Enter the expression: while(i<5)break
