@@ -107,6 +107,7 @@ int main()
 	}
 	return 0;
 }
+/*
 // Input
 Enter the production: end with ~
 
@@ -151,4 +152,4 @@ L: {    ,       (       a       }
 			S->*a 			      take * leave a
 
 - Print the Leading edges.
-- Stop the program.
+- Stop the program.*/
