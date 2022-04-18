@@ -131,6 +131,7 @@ int main()
 	}
     return 0;
 }
+/*
 // Input
 Enter the production: end with ~
 S->(L)
@@ -167,3 +168,4 @@ L: {, ) a }
 			S->*a 					take * leave a
 - Print the Trailing edges.
 - Stop the program.	
+*/
