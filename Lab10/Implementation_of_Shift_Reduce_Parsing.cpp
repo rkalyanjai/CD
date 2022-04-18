@@ -78,6 +78,7 @@ printf("\t\t");
 for(;val<strlen(temp);val++)
 printf("%c",temp[val]);
 }
+/*
 // Input
 Enter your expression: E+E*E-E
 // Output
@@ -101,4 +102,4 @@ Expressions Output: E
 - This combination of shifting input symbols onto the stack and reducing productions when handles appear on the top of the stack continues until 
 all of the input is consumed and the goal symbol is the only thing on the stack - the input is then accepted.
 - If we reach the end of the input and cannot reduce the stack to the goal symbol, the input is rejected.
-- Stop the process.
+- Stop the process.*/
